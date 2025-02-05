@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie-buff-quiz/static/css/main.e64abc51.css",
+    "main.js": "/movie-buff-quiz/static/js/main.93ea53ba.js",
+    "index.html": "/movie-buff-quiz/index.html",
+    "main.e64abc51.css.map": "/movie-buff-quiz/static/css/main.e64abc51.css.map",
+    "main.93ea53ba.js.map": "/movie-buff-quiz/static/js/main.93ea53ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e64abc51.css",
+    "static/js/main.93ea53ba.js"
+  ]
+}
