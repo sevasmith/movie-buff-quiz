@@ -4,17 +4,19 @@ import he from "he";
 function Question(props) {
   function createOptions() {
     const optionElements = (props.options || []).map((option, optionIndex) => (
-      <button
-        key={optionIndex}
-        className={`question-button ${buttonColor(
-          props.readyForCheck,
-          option.isSelected,
-          option.isCorrect
-        )}`}
-        onClick={() => props.select(optionIndex)}
-      >
-        {he.decode(option.value)}
-      </button>
+      <div>
+        <button
+          key={optionIndex}
+          className={`question-button ${buttonColor(
+            props.readyForCheck,
+            option.isSelected,
+            option.isCorrect
+          )}`}
+          onClick={() => props.select(optionIndex)}
+        >
+          {he.decode(option.value)}
+        </button>
+      </div>
     ));
     return optionElements;
   }

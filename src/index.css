@@ -86,6 +86,7 @@ hr {
   background-color: transparent;
   padding: 4px 8px;
   cursor: pointer;
+  display: inline-block;
   min-width: 75px;
 }
 

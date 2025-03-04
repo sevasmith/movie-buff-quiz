@@ -9,7 +9,7 @@ export default function Quiz() {
   async function fetchQuestions() {
     try {
       const response = await fetch(
-        "https://opentdb.com/api.php?amount=5&category=11&type=multiple"
+        "https://opentdb.com/api.php?amount=5&category=11&difficulty=easy&type=multiple"
       );
       const apiData = await response.json();
       const rawOptions = apiData.results.map((item) => [
