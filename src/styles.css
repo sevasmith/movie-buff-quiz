@@ -5,12 +5,18 @@
   font-family: Inter, sans-serif;
 }
 
+#root {
+  display: flex;
+  align-items: center;
+}
+
 body {
   margin: 20px;
   display: flex;
+  align-items: center;
   justify-content: center;
   background-color: #fef6ef;
-  height: fit-content;
+  height: 100vh;
 }
 
 .start-page {
