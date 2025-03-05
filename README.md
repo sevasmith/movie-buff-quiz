@@ -24,7 +24,7 @@ Movie Buff Quiz is a fun and interactive quiz game that challenges players with 
 ## 📦 Installation & Running Locally  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/Seva-XIV/movie-buff-quiz.git
+   git clone https://github.com/sevasmith/movie-buff-quiz.git
    cd movie-buff-quiz
    ```
 2. Install dependencies:  
