@@ -5,11 +5,6 @@
   font-family: Inter, sans-serif;
 }
 
-#root {
-  display: flex;
-  align-items: center;
-}
-
 body {
   margin: 20px;
   display: flex;
@@ -17,6 +12,7 @@ body {
   justify-content: center;
   background-color: #fef6ef;
   height: 100vh;
+  min-height: fit-content;
 }
 
 .start-page {
@@ -189,10 +185,6 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-
-  body {
-    transform: scale(1);
-  }
 
   .start-page-button {
     width: 120px;
