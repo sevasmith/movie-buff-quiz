@@ -182,16 +182,6 @@ hr {
   }
 }
 
-@media screen and (min-width: 768px) {
-  body {
-  transform: scale(1.1);
-  transform-origin: top center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  }
-}
-
 @media screen and (max-width: 600px) {
 
   body {
